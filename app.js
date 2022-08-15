@@ -39,7 +39,7 @@ switch (birthMonth) {
       alert("Autumn");
       break;
     default:
-    alert("That month doesn't exist on my calender")
+    alert("That month doesn't exist on my calendar")
   
 }
 
@@ -62,6 +62,7 @@ switch (typeId) {
     break;
   case "03":
     type = "Long Sleeve";
+    break;
   case "04":
     type = "Sweat Shirt";
     break;
@@ -71,18 +72,19 @@ switch (typeId) {
 
 switch (colorId) {
   case "BL":
-    type = "Black";
+    color = "Black";
     break;
   case "BL":
-    type = "Blue";
+    color = "Blue";
     break;
   case "RD":
-    type = "Red";
+    color = "Red";
+    break;
   case "PU":
-    type = "Purple";
+    color = "Purple";
     break;
   default: 
-    type = "White";
+    color = "White";
 }
 
 switch (sizeId) {
@@ -90,12 +92,13 @@ switch (sizeId) {
     size = "Small";
     break;
   case "M":
-    type = "Medium";
+    size = "Medium";
     break;
   case "L":
-    type = "Large";
+    size = "Large";
+    break;
   case "XL":
-    type = "Extra Large";
+    size = "Extra Large";
     break;
   default:
     size = "One Size Fits All"
